@@ -27,8 +27,10 @@ Color(int r, int g, int b) {
 
 }
 
+int getRed() {return red;}
+int getBlue() {return blue;}
+int getGreen() {return green;}
 
- //setters and getters
  void print() {
  cout << "RGB: " << red << green << blue;
  }
@@ -37,12 +39,11 @@ Color(int r, int g, int b) {
 
 int main(){
 Color myColor1;
-Color myColor2(245)
+Color myColor2(245);
+Color myColor3(256, 245, 235);
 
-Color myColor3.setBlue(256);
-myColor.setGreen(236);
-
-cout << color_1.getRedColor() << endl;
-myColor.print();
+cout<< myColor1.getRed() <<endl;
+cout << myColor2.getBlue();
+return 0;
 
 }
