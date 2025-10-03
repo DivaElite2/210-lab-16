@@ -27,9 +27,9 @@ public:
    }
    // default constructor
    Color()  {string colorName = "Red";}
-
-//pararmeter constructor
-   Color(string c, int n);
+   Color(int red) {red = 252;}
+   //pararmeter constructor
+   Color(int blue, int b);
 };
 
 int main(){
@@ -37,6 +37,9 @@ Color myColor;
 myColor.setRed(255);
 myColor.setBlue(256);
 myColor.setGreen(236);
+
+Color color_1;
+cout <<
 myColor.print();
 
 }
