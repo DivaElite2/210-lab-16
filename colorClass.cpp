@@ -9,11 +9,21 @@ private:
     int blue;
 
 public:
-Color()  {red = 255;}
-Color(int b) {blue = b;}
+Color() {
+    red = 255;
+    green = 235;
+    blue = 335;
+}
+Color(int hue) {
+    blue = hue
+
+}
 Color(int green) {red = 252;}
  //pararmeter constructor
  Color(int blue, int b);
+
+ //setters and getters
+ void setColor(int n )
 };
 
 int main(){
