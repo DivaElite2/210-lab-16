@@ -1,5 +1,10 @@
+//Lateefah camacho| 210-Lab-16
+
+
 #include <iostream>
 using namespace std;
+
+
 
 class Color {
 private:
