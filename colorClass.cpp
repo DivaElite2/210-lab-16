@@ -32,7 +32,7 @@ int getBlue() {return blue;}
 int getGreen() {return green;}
 
  void print() {
- cout << "RGB: " << red<<" ," << green <<", "<< blue;
+ cout << "RGB: " << red<<" ," << green <<", "<< blue<<endl;
  }
 
 };
@@ -43,7 +43,7 @@ Color myColor2(244);
 Color myColor3(256, 245, 235);
 
 cout<< myColor1.getRed() <<endl;
-cout << myColor2.getBlue();
+cout << myColor2.getBlue() <<endl;
 myColor3.print();
 return 0;
 
